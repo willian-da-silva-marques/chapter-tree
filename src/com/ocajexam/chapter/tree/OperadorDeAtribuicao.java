@@ -1,8 +1,37 @@
 package com.ocajexam.chapter.tree;
 
+import com.ocajexam.chapter.tree.model.PirateShip;
+
+/**
+ * @since 09/01/2020
+ * @author willian
+ *
+ * Os operadores de atribuição são usados para atribuir valores a variáveis.
+ * O operador de atribuição é o sinal de igualdade(=)
+ */
 public class OperadorDeAtribuicao {
 
 	public static void main(String[] args) {
+		// atribuições válidas
+		boolean hasTreasureChestKey = true;
+		byte shipmates = 20;
+		PirateShip ship = new PirateShip();
+		
+		System.out.printf("hasTreasureChestKey: %b%n", hasTreasureChestKey);
+		System.out.printf("shipmates: %d%n", shipmates);
+		System.out.printf("ship: %s%n", ship);
+		
+		// atribuições inválidas
+		
+		/*Literal inválido, TRUE deve estar em minúsculo*/
+		// boolean hasTreasureChestKey = TRUE;
+		
+		/*Literal inválido, o valor em bytes não pode exceder 127 */
+		// byte shipmates = 500;
+		
+		/*Construtor inválido*/
+		// PirateShip ship = new PirateShip(UNEXPECTED_ARG);
+		
 		byte a;
 		a = 10;
 		// Faz parte do escopo do exame
