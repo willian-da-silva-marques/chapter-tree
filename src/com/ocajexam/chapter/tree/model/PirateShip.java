@@ -6,7 +6,7 @@ public class PirateShip implements Serializable {
 
 	private static final long serialVersionUID = -3739351265245281011L;
 	
-	private int quantityOfPirates = 12;
+	private int quantityOfPirates = 2;
 	
 	public int getQuantityOfPirates() {
 		return quantityOfPirates;
